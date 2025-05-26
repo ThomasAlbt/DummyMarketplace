@@ -1,0 +1,73 @@
+{
+  "annonces": [
+    {
+      "id": 1,
+      "title": "Appartement lumineux avec vue sur mer",
+      "price": 450000,
+      "city": "Nice",
+      "bedrooms": 2,
+      "surface": 65,
+      "description": "Situé en plein cœur de Nice, cet appartement offre une vue imprenable sur la Méditerranée. Parfait pour les amoureux de la mer, il est proche des commerces et des transports. Décoration moderne et cuisine équipée.",
+      "photos": [
+        "https://images.unsplash.com/photo-1513694203232-719a280e022f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ],
+      "tags": ["vue mer", "centre-ville", "moderne", "balcon"],
+      "user": {
+        "nom": "Dupont",
+        "prenom": "Sophie",
+        "age": 42,
+        "presentation": "Architecte d'intérieur, je vends ce bien avec émotion après 10 ans de bons moments passés ici.",
+        "photo_profil": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "note": 4.8
+      }
+    },
+    {
+      "id": 2,
+      "title": "Maison de charme à Bordeaux",
+      "price": 380000,
+      "city": "Bordeaux",
+      "bedrooms": 3,
+      "surface": 110,
+      "description": "Cette maison allie modernité et caractère, avec ses poutres apparentes et sa cheminée en pierre. Grand jardin arboré et garage. Quartier calme à 10 minutes du centre-ville. Parfait pour les familles.",
+      "photos": [
+        "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ],
+      "tags": ["poutres apparentes", "jardin", "garage", "familial"],
+      "user": {
+        "nom": "Martin",
+        "prenom": "Pierre",
+        "age": 55,
+        "presentation": "Passionné de rénovation, j'ai redonné vie à cette maison avec des matériaux locaux.",
+        "photo_profil": "https://images.unsplash.com/photo-1552058544-f2b08422138a?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "note": 4.9
+      }
+    },
+    {
+      "id": 3,
+      "title": "Loft industriel à Lyon",
+      "price": 520000,
+      "city": "Lyon",
+      "bedrooms": 1,
+      "surface": 80,
+      "description": "Ancienne usine réhabilitée en loft haut de gamme, avec grandes baies vitrées et mezzanine. Espace ouvert idéal pour les créatifs. Proche des quais de Saône et des restaurants branchés.",
+      "photos": [
+        "https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1600121848594-d8644e57abab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ],
+      "tags": ["loft", "mezzanine", "hauts plafonds", "quartier créatif"],
+      "user": {
+        "nom": "Leroy",
+        "prenom": "Camille",
+        "age": 33,
+        "presentation": "Artiste peintre, je quitte Lyon pour une résidence à Berlin. Ce loft a été mon atelier pendant 5 ans.",
+        "photo_profil": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "note": 4.5
+      }
+    }
+  ]
+}
