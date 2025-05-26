@@ -77,7 +77,7 @@ const Home = () => {
     return (
         <>
             <Header search={search} setSearch={setSearch} />
-            <ul>
+            <ul className="grid grid-cols-2 sm:grid-cols-3 bg-sky-500">
                 {displayList.map((data, index) => (
                     <Link to={`/${data.id}`} key={data.id || index}>
                         <li>
