@@ -1,0 +1,224 @@
+@font-face {
+  font-family: "Noto";
+  src: url("/fonts/NotoSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Coolvetica";
+  src: url("/fonts/Coolvetica.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+:root ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 1rem;
+  border-radius: 2rem;
+  padding-top: 1rem;
+}
+:root ul .card {
+  position: relative;
+  width: 65vw;
+  height: 40vh;
+  margin: 1rem;
+  background-color: #FF9B85;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+:root ul .card img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 1rem;
+}
+:root ul .card h2 {
+  position: absolute;
+  font-size: 1.5rem;
+  width: 100%;
+  text-align: center;
+  padding-top: 1rem;
+}
+:root ul .card a {
+  color: white;
+}
+
+aside {
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+aside form {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  align-items: center;
+  padding: 1rem;
+}
+aside form legend {
+  font-size: 2rem;
+  font-family: "Coolvetica";
+}
+aside form div {
+  text-wrap: nowrap;
+  padding-left: 1rem;
+}
+aside form div input {
+  display: none;
+}
+aside form div label {
+  border: 2px solid #FF9B85;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  transition: background 0.3s, color 0.3s;
+  font-size: 1.2rem;
+}
+aside form div input:checked + label {
+  background: #FF9B85;
+  color: white;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+header img {
+  max-width: 10vw;
+}
+header input {
+  all: unset;
+  background-color: #C7CBD4;
+  border-radius: 3rem;
+  padding: 1rem;
+  opacity: 0;
+  transform: translateX(-40px);
+  pointer-events: none;
+  transition: opacity 0.4s, transform 0.4s;
+}
+header input.show {
+  opacity: 1;
+  transform: translateX(0);
+  pointer-events: auto;
+}
+header button {
+  all: unset;
+}
+header button:nth-of-type(1) {
+  width: 3rem;
+}
+header button:nth-of-type(2) {
+  background-color: #7D5BA6;
+}
+header button:nth-of-type(2) img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 1rem;
+}
+header .circle {
+  border-radius: 50%;
+}
+
+@media (min-width: 769px) {
+  input,
+  input.show {
+    opacity: 1;
+    transform: none;
+    pointer-events: auto;
+    transition: none;
+  }
+}
+:root {
+  background-color: #F8F4FF;
+}
+:root .section {
+  background-color: #E5E7EB;
+}
+
+:root[data-theme=dark] {
+  background-color: #121218;
+  color: white;
+}
+:root[data-theme=dark] .section {
+  background-color: #4C5058;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Noto";
+  scroll-behavior: smooth;
+}
+
+:root,
+:root[data-theme=dark] {
+  transition: background-color 0.4s, color 0.4s;
+}
+
+.section {
+  transition: background-color 0.4s, color 0.4s;
+}/*# sourceMappingURL=style.css.map */

@@ -23,7 +23,7 @@ const Aside = ({ selectedTags, setSelectedTags }) => {
     };
 
     return (
-        <aside>
+        <aside className='section'>
             <form>
                 <legend>Filtres</legend>
                 {tags.map((tag, index) => (

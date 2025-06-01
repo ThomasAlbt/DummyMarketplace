@@ -1,0 +1,32 @@
+// Abstracts
+@import "./abstracts/fonts";
+@import "./abstracts/colors";
+
+// Reset
+@import "./reset";
+
+// Pages
+@import "./pages/home";
+@import "./pages/details";
+
+// Layout
+@import "./layout/aside";
+@import "./layout/header";
+
+// Themes
+@import "./theme/themes";
+
+html {
+    font-size: 62.5%;
+    font-family: 'Noto';
+    scroll-behavior: smooth;
+}
+
+:root,
+:root[data-theme='dark'] {
+    transition: background-color 0.4s, color 0.4s;
+}
+
+.section {
+    transition: background-color 0.4s, color 0.4s;
+}

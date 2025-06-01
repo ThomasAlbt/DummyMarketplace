@@ -1,0 +1,42 @@
+aside {
+    margin: 1rem;
+    padding: 1rem;
+
+    border-radius: 2rem;
+
+    form {
+        display: flex;
+        flex-direction: row;
+        overflow-x: scroll;
+        align-items: center;
+
+        padding: 1rem;
+
+        legend {
+            font-size: 2rem;
+            font-family: 'Coolvetica';
+        }
+
+        div {
+            text-wrap: nowrap;
+            padding-left: 1rem;
+            
+            input {
+                display: none;
+            }
+
+            label {
+                border: 2px solid $accent2;
+                border-radius: 1rem;
+                padding: 0.5rem;
+                transition: background 0.3s, color 0.3s;
+                font-size: 1.2rem;
+            }
+
+            input:checked + label {
+                background: $accent2;
+                color: white;
+            }
+        }
+    }
+}

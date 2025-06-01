@@ -3,6 +3,7 @@ import { FetchAll } from "../components/Fetch";
 import Header from '../layout/Header';
 import Aside from '../layout/Aside';
 import { Link } from "react-router";
+import checkMobile from "../components/CheckMobile";
 
 const ANNONCES_PER_PAGE = 10;
 
@@ -11,8 +12,10 @@ const Home = () => {
     const [dataList, setData] = useState([]);
     const [page, setPage] = useState(1);
     const [isLoading, setLoading] = useState(false);
-    const [filteredAnnonces, setFAnnonces] = useState([]);
-    const [selectedTags, setSelectedTags] = useState([]); // NEW
+    const [filteredAnnonces, setFannonces] = useState([]);
+    const [selectedTags, setSelectedTags] = useState([]);
+
+    const isMobile = checkMobile();
 
     useEffect(() => {
         const fetchData = async () => {
@@ -45,7 +48,7 @@ const Home = () => {
             );
         }
 
-        setFAnnonces(filtered);
+        setFannonces(filtered);
         setPage(1);
     }, [search, dataList, selectedTags]);
 
@@ -77,20 +80,21 @@ const Home = () => {
     return (
         <>
             <Header search={search} setSearch={setSearch} />
-            <ul>
+            {isMobile ? <Aside selectedTags={selectedTags} setSelectedTags={setSelectedTags} /> : null}
+            <ul className='section'>
                 {displayList.map((data, index) => (
-                    <Link to={`/${data.id}`} key={data.id || index}>
-                        <li>
-                            <h2>{data.title}</h2>
-                            <img src={Array.isArray(data.photos) ? data.photos[0] : data.photos} alt="" />
+                        <li className="card"  key={data.id || index}>
+                            <Link to={`/${data.id}`}>
+                                <h2>{data.title}</h2>
+                                <img src={Array.isArray(data.photos) ? data.photos[0] : data.photos} alt="" />
+                            </Link>
                         </li>
-                    </Link>
                 ))}
             </ul>
             <button onClick={previousPage} disabled={page === 1}>previous</button>
             <p>{page} / {totalPages == 0 ? 1 : totalPages}</p>
             <button onClick={nextPage} disabled={page === totalPages}>next</button>
-            <Aside selectedTags={selectedTags} setSelectedTags={setSelectedTags} />
+            {isMobile ? null : <Aside selectedTags={selectedTags} setSelectedTags={setSelectedTags} />}
         </>
     );
 }
