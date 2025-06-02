@@ -100,7 +100,42 @@ table {
 :root ul .card a {
   color: white;
 }
+:root #buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 2rem;
+}
+:root #buttons p {
+  margin: 1rem;
+}
+:root #buttons button {
+  margin: 1rem;
+  background: none;
+  border: none;
+  font-family: "Noto";
+  text-decoration: underline;
+}
 
+@media (min-width: 769px) {
+  :root main {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  :root ul {
+    max-width: 75vw;
+    height: 80vh;
+    flex-direction: unset;
+    justify-content: space-around;
+  }
+  :root ul .card {
+    max-width: 25rem;
+    height: 30rem;
+  }
+}
 aside {
   margin: 1rem;
   padding: 1rem;
@@ -136,6 +171,19 @@ aside form div input:checked + label {
   color: white;
 }
 
+@media (min-width: 769px) {
+  :root aside {
+    width: 20vw;
+    max-height: 80vh;
+    overflow-y: scroll;
+  }
+  :root aside form {
+    flex-direction: column;
+  }
+  :root aside form div {
+    padding-top: 2rem;
+  }
+}
 header {
   display: flex;
   flex-direction: row;
@@ -191,8 +239,29 @@ header .circle {
     transform: none;
     pointer-events: auto;
     transition: none;
+    width: 70vw;
+  }
+  button:nth-of-type(2) {
+    background-color: #7D5BA6;
+    max-width: 5rem;
   }
 }
+footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+}
+footer img {
+  height: 4rem;
+  margin: 1rem;
+}
+footer p {
+  text-align: center;
+}
+
 :root {
   background-color: #F8F4FF;
 }
@@ -206,6 +275,9 @@ header .circle {
 }
 :root[data-theme=dark] .section {
   background-color: #4C5058;
+}
+:root[data-theme=dark] button {
+  color: white;
 }
 
 html {

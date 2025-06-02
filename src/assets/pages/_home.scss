@@ -44,4 +44,47 @@
             }
         }
     }
+
+    #buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        font-size: 2rem;
+
+        p {
+            margin: 1rem;
+        }
+
+        button {
+            margin: 1rem;
+            background: none;
+            border: none;
+            font-family: 'Noto';
+            text-decoration: underline;
+        }
+    }
+}
+
+@media (min-width: 769px) {
+    :root {
+        main {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+        }
+
+        ul {
+            max-width: 75vw;
+            height: 80vh;
+            flex-direction: unset;
+            justify-content: space-around;
+
+            .card {
+                max-width: 25rem;
+                height: 30rem;
+            }
+        }
+    }
 }

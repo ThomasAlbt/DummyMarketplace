@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { FetchAll } from "../components/Fetch";
 import Header from '../layout/Header';
 import Aside from '../layout/Aside';
+import Footer from "../layout/Footer";
 import { Link } from "react-router";
 import checkMobile from "../components/CheckMobile";
 
@@ -81,20 +82,24 @@ const Home = () => {
         <>
             <Header search={search} setSearch={setSearch} />
             {isMobile ? <Aside selectedTags={selectedTags} setSelectedTags={setSelectedTags} /> : null}
-            <ul className='section'>
-                {displayList.map((data, index) => (
+            <main>
+                <ul className='section'>
+                    {displayList.map((data, index) => (
                         <li className="card"  key={data.id || index}>
                             <Link to={`/${data.id}`}>
                                 <h2>{data.title}</h2>
                                 <img src={Array.isArray(data.photos) ? data.photos[0] : data.photos} alt="" />
                             </Link>
                         </li>
-                ))}
-            </ul>
-            <button onClick={previousPage} disabled={page === 1}>previous</button>
-            <p>{page} / {totalPages == 0 ? 1 : totalPages}</p>
-            <button onClick={nextPage} disabled={page === totalPages}>next</button>
-            {isMobile ? null : <Aside selectedTags={selectedTags} setSelectedTags={setSelectedTags} />}
+                    ))}
+                </ul>
+                {isMobile ? null : <Aside selectedTags={selectedTags} setSelectedTags={setSelectedTags} />}
+            </main>
+            <div id="buttons">
+                <button onClick={previousPage} disabled={page === 1}>previous</button>
+                <p>{page} / {totalPages == 0 ? 1 : totalPages}</p>
+                <button onClick={nextPage} disabled={page === totalPages}>next</button>
+            </div>
         </>
     );
 }
