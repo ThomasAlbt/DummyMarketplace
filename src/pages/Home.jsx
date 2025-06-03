@@ -75,7 +75,7 @@ const Home = () => {
     };
 
     if (isLoading) {
-        return <p>Chargement...</p>;
+        return <div className="loader-container"><div class="loader"></div></div>;
     }
 
     return (

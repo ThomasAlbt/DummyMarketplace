@@ -77,9 +77,9 @@
 
         ul {
             max-width: 75vw;
-            height: 80vh;
             flex-direction: unset;
             justify-content: space-around;
+            min-height: 80vh;
 
             .card {
                 max-width: 25rem;

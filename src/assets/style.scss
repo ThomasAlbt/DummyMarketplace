@@ -13,6 +13,7 @@
 @import "./layout/aside";
 @import "./layout/header";
 @import "./layout/footer";
+@import "./layout/loading";
 
 // Themes
 @import "./theme/themes";
@@ -30,4 +31,7 @@ html {
 
 .section {
     transition: background-color 0.4s, color 0.4s;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 2rem;
 }
