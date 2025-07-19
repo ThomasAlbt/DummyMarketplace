@@ -1,8 +1,14 @@
 header {
+
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    
+    padding: 1rem;
+
+    grid-column: 1 / -1;
+    grid-row: 1;
 
     img {
         max-width: 10vw;
@@ -52,13 +58,17 @@ header {
 }
 
 @media (min-width: 769px) {
+
+    header {
+        grid-column: span 5 / span 5;
+    }
+
     input,
     input.show {
         opacity: 1;
         transform: none;
         pointer-events: auto;
         transition: none;
-        width: 70vw;
     }
 
     button:nth-of-type(2) {

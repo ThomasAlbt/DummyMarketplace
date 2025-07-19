@@ -80,9 +80,9 @@ const Home = () => {
 
     return (
         <>
-            <Header search={search} setSearch={setSearch} />
-            {isMobile ? <Aside selectedTags={selectedTags} setSelectedTags={setSelectedTags} /> : null}
             <main>
+                <Header search={search} setSearch={setSearch} />
+                {isMobile ? <Aside selectedTags={selectedTags} setSelectedTags={setSelectedTags} /> : null}
                 <ul className='section'>
                     {displayList.map((data, index) => (
                         <li className="card"  key={data.id || index}>
@@ -100,6 +100,7 @@ const Home = () => {
                 <p>{page} / {totalPages == 0 ? 1 : totalPages}</p>
                 <button onClick={nextPage} disabled={page === totalPages}>next</button>
             </div>
+            <Footer />
         </>
     );
 }

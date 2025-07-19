@@ -64,20 +64,19 @@ table {
   border-spacing: 0;
 }
 
-:root ul {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
-  margin: 1rem;
-  border-radius: 2rem;
+:root main {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  gap: 16px;
+  width: 90%;
   padding-top: 1rem;
+  margin: auto;
 }
 :root ul .card {
   position: relative;
   width: 65vw;
   height: 40vh;
-  margin: 1rem;
+  margin: 1rem auto;
   background-color: #FF9B85;
   border-radius: 1rem;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -105,11 +104,9 @@ table {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 100%;
   font-size: 2rem;
-}
-:root #buttons p {
-  margin: 1rem;
+  max-width: 50%;
+  margin: auto;
 }
 :root #buttons button {
   margin: 1rem;
@@ -121,29 +118,49 @@ table {
 
 @media (min-width: 769px) {
   :root main {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto 1fr;
+    max-height: 90vh;
+    gap: 16px;
   }
   :root ul {
-    max-width: 75vw;
-    flex-direction: unset;
-    justify-content: space-around;
-    min-height: 80vh;
+    grid-column: span 4/span 4;
+    grid-row: span 4/span 4;
+    grid-row-start: 2;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: 1fr;
+    gap: 16px;
+    padding: 16px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
   }
   :root ul .card {
-    max-width: 25rem;
-    height: 30rem;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    min-height: 15rem;
   }
+}
+:root {
+  padding-top: 1rem;
+}
+:root #details {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  gap: 16px;
+  padding: 1rem 0 1rem 0;
+  max-width: 90%;
+  margin: auto;
 }
 :root h1 {
   font-family: "Coolvetica";
   text-align: center;
-  font-size: 2rem;
-  padding-bottom: 1rem;
+  font-size: 3rem;
 }
 :root #carousel {
-  max-width: 80vw;
   max-height: 40vh;
   position: relative;
   margin: auto;
@@ -195,9 +212,9 @@ table {
   justify-content: space-around;
 }
 :root p {
-  max-width: 60vw;
   margin: auto;
   font-size: 1.5rem;
+  padding: 1rem;
 }
 :root aside {
   display: flex;
@@ -255,8 +272,6 @@ table {
   }
 }
 aside {
-  margin: 1rem;
-  padding: 1rem;
   border-radius: 2rem;
 }
 aside form {
@@ -291,9 +306,10 @@ aside form div input:checked + label {
 
 @media (min-width: 769px) {
   :root aside {
-    width: 20vw;
-    max-height: 80vh;
     overflow-y: scroll;
+    grid-row: span 4/span 4;
+    grid-column-start: 5;
+    grid-row-start: 2;
   }
   :root aside form {
     flex-direction: column;
@@ -305,8 +321,11 @@ aside form div input:checked + label {
 header {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  padding: 1rem;
+  grid-column: 1/-1;
+  grid-row: 1;
 }
 header img {
   max-width: 10vw;
@@ -348,13 +367,15 @@ header .circle {
 }
 
 @media (min-width: 769px) {
+  header {
+    grid-column: span 5/span 5;
+  }
   input,
   input.show {
     opacity: 1;
     transform: none;
     pointer-events: auto;
     transition: none;
-    width: 70vw;
   }
   button:nth-of-type(2) {
     background-color: #7D5BA6;
@@ -432,7 +453,5 @@ html {
 
 .section {
   transition: background-color 0.4s, color 0.4s;
-  margin: 1rem;
-  padding: 1rem;
   border-radius: 2rem;
 }/*# sourceMappingURL=style.css.map */
