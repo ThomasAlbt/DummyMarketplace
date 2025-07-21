@@ -10,6 +10,9 @@ header {
     grid-column: 1 / -1;
     grid-row: 1;
 
+    max-width: 90%;
+    margin: auto;
+
     img {
         max-width: 10vw;
     }
@@ -69,6 +72,7 @@ header {
         transform: none;
         pointer-events: auto;
         transition: none;
+        min-width: 70%;
     }
 
     button:nth-of-type(2) {

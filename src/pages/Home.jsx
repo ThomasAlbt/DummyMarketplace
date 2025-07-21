@@ -80,8 +80,8 @@ const Home = () => {
 
     return (
         <>
+            <Header search={search} setSearch={setSearch} />
             <main>
-                <Header search={search} setSearch={setSearch} />
                 {isMobile ? <Aside selectedTags={selectedTags} setSelectedTags={setSelectedTags} /> : null}
                 <ul className='section'>
                     {displayList.map((data, index) => (

@@ -20,17 +20,19 @@
     }
 
     #carousel {
-        max-height: 40vh;
         position: relative;
+        width: 100%;
         margin: auto;
+        overflow: hidden;
+        aspect-ratio: 16/9; /* Maintain aspect ratio */
+        max-height: 60vh; /* Slightly larger max height */
     }
 
     .img-carousel {
         width: 100%;
-        height: 40vh;
+        height: 100%;
         object-fit: cover;
-        max-width: 100%;
-        max-height: 100%;
+        display: block;
         border-radius: 16px;
     }
 
@@ -101,49 +103,45 @@
 
 @media (min-width: 769px) {
     :root {
-        #root {
-            height: 100vh;
-        }
-
         #details {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            height: 100%;
+            display: grid;
+            grid-template-columns: 2fr minmax(300px, 1fr) minmax(250px, 1fr);
+            grid-template-rows: auto auto auto;
+            gap: 16px;
             
 
             h1 {
-                width: 100%;
                 text-align: center;
                 font-size: 3rem;
+                grid-column: 1 / -1;
             }
 
-            .main-content {
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                align-items: flex-start;
-                height: 100%;
+            #carousel {
+                grid-column: 1 / -1;
+                grid-row: 2 / 3;
+                max-height: 70vh;
 
-                #carousel {
-                    width: 70vw;
-                    margin: 0;
-                    max-height: none;
-                    height: 80%;
-
-                    .img-carousel {
-                        height: fit-content;
-                        object-fit:fill;
-                    }
+                .img-carousel {
+                    height: fit-content;
+                    object-fit: cover;
                 }
+            }
 
-                .side-content {
-                    display: flex;
-                    flex-direction: column;
-                    margin-left: 1.5rem;
-                    width: 25vw;
-                    height: auto;
-                }
+            #infos {
+                grid-column: 1 / 2;
+                grid-row: 3 / 4;
+            }
+
+            p {
+                grid-column: 2 / 3;
+                grid-row: 3 / 4;
+                
+            }
+
+            aside {
+                grid-column: 3 / 4;
+                grid-row: 3 / 4;
+                text-align: center;
             }
         }
     }
