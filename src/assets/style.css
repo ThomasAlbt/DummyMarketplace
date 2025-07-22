@@ -271,6 +271,16 @@ table {
 aside {
   border-radius: 2rem;
 }
+aside #clear {
+  border: none;
+  padding: 0.4rem 1rem;
+  background-color: #FF9B85;
+  color: white;
+  border-radius: 2rem;
+  font-size: 1rem;
+  font-family: "Coolvetica", sans-serif;
+  cursor: pointer;
+}
 aside form {
   display: flex;
   flex-direction: row;
@@ -291,10 +301,12 @@ aside form div input {
 }
 aside form div label {
   border: 2px solid #FF9B85;
-  border-radius: 1rem;
-  padding: 0.5rem;
+  border-radius: 2rem;
+  padding: 0.4rem 1rem;
   transition: background 0.3s, color 0.3s;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  text-align: center;
+  cursor: pointer;
 }
 aside form div input:checked + label {
   background: #FF9B85;
@@ -302,17 +314,34 @@ aside form div input:checked + label {
 }
 
 @media (min-width: 769px) {
-  :root aside {
-    overflow-y: scroll;
+  aside {
     grid-row: span 4/span 4;
     grid-column-start: 5;
     grid-row-start: 2;
   }
-  :root aside form {
+  aside form {
     flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1rem;
+    align-items: start;
   }
-  :root aside form div {
-    padding-top: 2rem;
+  aside form legend {
+    grid-column: 1/-1;
+    margin-bottom: 1rem;
+    margin: auto;
+  }
+  aside form div {
+    padding: 0;
+  }
+  aside form div label {
+    display: block;
+    text-align: center;
+    width: 90%;
+  }
+  aside form #clear {
+    grid-column: 1/-1;
+    justify-self: start;
   }
 }
 header {
@@ -436,7 +465,8 @@ footer p {
 :root[data-theme=dark] .section {
   background-color: #4C5058;
 }
-:root[data-theme=dark] button {
+:root[data-theme=dark] button,
+:root[data-theme=dark] #clear {
   color: white;
 }
 

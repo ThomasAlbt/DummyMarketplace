@@ -1,19 +1,17 @@
 footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
 
+  img {
+    height: 4rem;
+    margin: 1rem;
+  }
 
-    background-color: black;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 2rem;
-
-    img {
-        height: 4rem;
-        margin: 1rem;
-    }
-
-    p {
-        text-align: center;
-    }
+  p {
+    text-align: center;
+  }
 }

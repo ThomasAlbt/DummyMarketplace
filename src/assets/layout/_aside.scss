@@ -1,63 +1,89 @@
 aside {
+  border-radius: 2rem;
 
+  #clear {
+    border: none;
+    padding: 0.4rem 1rem;
+    background-color: $accent2;
+    color: white;
     border-radius: 2rem;
+    font-size: 1rem;
+    font-family: "Coolvetica", sans-serif;
+    cursor: pointer;
+  }
 
-    
+  form {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    align-items: center;
 
-    form {
-        display: flex;
-        flex-direction: row;
-        overflow-x: scroll;
-        align-items: center;
+    padding: 1rem;
 
-        padding: 1rem;
-
-
-        legend {
-            font-size: 2rem;
-            font-family: 'Coolvetica';
-        }
-
-        div {
-            text-wrap: nowrap;
-            padding-left: 1rem;
-            
-            input {
-                display: none;
-            }
-
-            label {
-                border: 2px solid $accent2;
-                border-radius: 1rem;
-                padding: 0.5rem;
-                transition: background 0.3s, color 0.3s;
-                font-size: 1.2rem;
-            }
-
-            input:checked + label {
-                background: $accent2;
-                color: white;
-            }
-        }
+    legend {
+      font-size: 2rem;
+      font-family: "Coolvetica";
     }
+
+    div {
+      text-wrap: nowrap;
+      padding-left: 1rem;
+
+      input {
+        display: none;
+      }
+
+      label {
+        border: 2px solid $accent2;
+        border-radius: 2rem;
+        padding: 0.4rem 1rem;
+        transition: background 0.3s, color 0.3s;
+        font-size: 1.1rem;
+        text-align: center;
+        cursor: pointer;
+      }
+
+      input:checked + label {
+        background: $accent2;
+        color: white;
+      }
+    }
+  }
 }
 
 @media (min-width: 769px) {
-    :root {
-        aside {
-            overflow-y: scroll;
-            
-            grid-row: span 4 / span 4;
-            grid-column-start: 5;
-            grid-row-start: 2;
+  aside {
+    grid-row: span 4 / span 4;
+    grid-column-start: 5;
+    grid-row-start: 2;
 
-            form {
-                flex-direction: column;
+    form {
+      flex-direction: column;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 1rem;
+      align-items: start;
 
-                div {
-                    padding-top: 2rem;
-                }
-            }
+      legend {
+        grid-column: 1 / -1;
+        margin-bottom: 1rem;
+        margin: auto;
+      }
+
+      div {
+        padding: 0;
+
+        label {
+          display: block;
+          text-align: center;
+          width: 90%;
         }
+      }
+
+      #clear {
+        grid-column: 1 / -1;
+        justify-self: start;
+      }
     }
+  }
 }

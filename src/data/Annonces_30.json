@@ -13,12 +13,7 @@
         "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
       ],
-      "tags": [
-        "neuf",
-        "proche métro",
-        "balcon",
-        "résidence sécurisée"
-      ],
+      "tags": ["neuf", "proche métro", "balcon", "résidence sécurisée"],
       "user": {
         "nom": "Moreau",
         "prenom": "Luc",
@@ -41,12 +36,7 @@
         "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
       ],
-      "tags": [
-        "centre-ville",
-        "balcon",
-        "vue mer",
-        "moderne"
-      ],
+      "tags": ["centre-ville", "balcon", "vue mer", "moderne"],
       "user": {
         "nom": "Leroy",
         "prenom": "Camille",
@@ -69,12 +59,7 @@
         "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
       ],
-      "tags": [
-        "neuf",
-        "université",
-        "jeune actif",
-        "parking privé"
-      ],
+      "tags": ["neuf", "université", "jeune actif", "parking privé"],
       "user": {
         "nom": "Dupont",
         "prenom": "Sophie",
@@ -97,12 +82,7 @@
         "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
       ],
-      "tags": [
-        "véranda",
-        "garage",
-        "proche canal",
-        "grenier"
-      ],
+      "tags": ["véranda", "garage", "proche canal", "grenier"],
       "user": {
         "nom": "Garnier",
         "prenom": "Louis",
@@ -125,12 +105,7 @@
         "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
       ],
-      "tags": [
-        "proche commerces",
-        "cheminée",
-        "ascenseur",
-        "haussmannien"
-      ],
+      "tags": ["proche commerces", "cheminée", "ascenseur", "haussmannien"],
       "user": {
         "nom": "Martin",
         "prenom": "Pierre",
@@ -153,12 +128,7 @@
         "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
       ],
-      "tags": [
-        "jardin",
-        "poutres apparentes",
-        "familial",
-        "garage"
-      ],
+      "tags": ["jardin", "poutres apparentes", "familial", "garage"],
       "user": {
         "nom": "Martin",
         "prenom": "Pierre",
@@ -181,12 +151,7 @@
         "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
       ],
-      "tags": [
-        "proche canal",
-        "garage",
-        "grenier",
-        "véranda"
-      ],
+      "tags": ["proche canal", "garage", "grenier", "véranda"],
       "user": {
         "nom": "Garnier",
         "prenom": "Louis",
@@ -209,12 +174,7 @@
         "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
       ],
-      "tags": [
-        "lumineux",
-        "balcon",
-        "proche tram",
-        "écoquartier"
-      ],
+      "tags": ["lumineux", "balcon", "proche tram", "écoquartier"],
       "user": {
         "nom": "Faure",
         "prenom": "Nicolas",
@@ -237,12 +197,7 @@
         "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
       ],
-      "tags": [
-        "grenier",
-        "garage",
-        "véranda",
-        "proche canal"
-      ],
+      "tags": ["grenier", "garage", "véranda", "proche canal"],
       "user": {
         "nom": "Dupont",
         "prenom": "Sophie",
@@ -265,12 +220,7 @@
         "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
       ],
-      "tags": [
-        "haussmannien",
-        "ascenseur",
-        "proche commerces",
-        "cheminée"
-      ],
+      "tags": ["haussmannien", "ascenseur", "proche commerces", "cheminée"],
       "user": {
         "nom": "Dupont",
         "prenom": "Sophie",
@@ -321,12 +271,7 @@
         "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
       ],
-      "tags": [
-        "ensoleillé",
-        "climatisation",
-        "terrasse",
-        "vue colline"
-      ],
+      "tags": ["ensoleillé", "climatisation", "terrasse", "vue colline"],
       "user": {
         "nom": "Faure",
         "prenom": "Nicolas",
@@ -349,12 +294,7 @@
         "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
       ],
-      "tags": [
-        "proche commerces",
-        "haussmannien",
-        "cheminée",
-        "ascenseur"
-      ],
+      "tags": ["proche commerces", "haussmannien", "cheminée", "ascenseur"],
       "user": {
         "nom": "Dubois",
         "prenom": "Emma",
@@ -377,12 +317,7 @@
         "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
       ],
-      "tags": [
-        "cheminée",
-        "proche commerces",
-        "ascenseur",
-        "haussmannien"
-      ],
+      "tags": ["cheminée", "proche commerces", "ascenseur", "haussmannien"],
       "user": {
         "nom": "Garnier",
         "prenom": "Louis",
@@ -405,12 +340,7 @@
         "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
       ],
-      "tags": [
-        "proche canal",
-        "garage",
-        "grenier",
-        "véranda"
-      ],
+      "tags": ["proche canal", "garage", "grenier", "véranda"],
       "user": {
         "nom": "Dupont",
         "prenom": "Sophie",
@@ -433,12 +363,7 @@
         "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
       ],
-      "tags": [
-        "hauts plafonds",
-        "mezzanine",
-        "loft",
-        "quartier créatif"
-      ],
+      "tags": ["hauts plafonds", "mezzanine", "loft", "quartier créatif"],
       "user": {
         "nom": "Dupont",
         "prenom": "Sophie",
@@ -461,12 +386,7 @@
         "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
       ],
-      "tags": [
-        "vue mer",
-        "centre-ville",
-        "balcon",
-        "moderne"
-      ],
+      "tags": ["vue mer", "centre-ville", "balcon", "moderne"],
       "user": {
         "nom": "Leroy",
         "prenom": "Camille",
@@ -489,12 +409,7 @@
         "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
       ],
-      "tags": [
-        "jardin",
-        "garage",
-        "familial",
-        "poutres apparentes"
-      ],
+      "tags": ["jardin", "garage", "familial", "poutres apparentes"],
       "user": {
         "nom": "Dupont",
         "prenom": "Sophie",
@@ -517,12 +432,7 @@
         "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
       ],
-      "tags": [
-        "balcon",
-        "centre-ville",
-        "moderne",
-        "vue mer"
-      ],
+      "tags": ["balcon", "centre-ville", "moderne", "vue mer"],
       "user": {
         "nom": "Faure",
         "prenom": "Nicolas",
@@ -545,12 +455,7 @@
         "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
       ],
-      "tags": [
-        "lumineux",
-        "proche tram",
-        "écoquartier",
-        "balcon"
-      ],
+      "tags": ["lumineux", "proche tram", "écoquartier", "balcon"],
       "user": {
         "nom": "Dubois",
         "prenom": "Emma",
@@ -573,12 +478,7 @@
         "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
       ],
-      "tags": [
-        "jeune actif",
-        "parking privé",
-        "université",
-        "neuf"
-      ],
+      "tags": ["jeune actif", "parking privé", "université", "neuf"],
       "user": {
         "nom": "Leroy",
         "prenom": "Camille",
@@ -601,12 +501,7 @@
         "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
       ],
-      "tags": [
-        "balcon",
-        "moderne",
-        "centre-ville",
-        "vue mer"
-      ],
+      "tags": ["balcon", "moderne", "centre-ville", "vue mer"],
       "user": {
         "nom": "Mercier",
         "prenom": "Claire",
@@ -629,12 +524,7 @@
         "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
       ],
-      "tags": [
-        "proche canal",
-        "grenier",
-        "véranda",
-        "garage"
-      ],
+      "tags": ["proche canal", "grenier", "véranda", "garage"],
       "user": {
         "nom": "Fontaine",
         "prenom": "Julien",
@@ -657,12 +547,7 @@
         "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
       ],
-      "tags": [
-        "garage",
-        "jardin",
-        "familial",
-        "poutres apparentes"
-      ],
+      "tags": ["garage", "jardin", "familial", "poutres apparentes"],
       "user": {
         "nom": "Dupont",
         "prenom": "Sophie",
@@ -713,12 +598,7 @@
         "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
       ],
-      "tags": [
-        "vue mer",
-        "moderne",
-        "balcon",
-        "centre-ville"
-      ],
+      "tags": ["vue mer", "moderne", "balcon", "centre-ville"],
       "user": {
         "nom": "Dupont",
         "prenom": "Sophie",
@@ -769,12 +649,7 @@
         "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
       ],
-      "tags": [
-        "parking privé",
-        "université",
-        "jeune actif",
-        "neuf"
-      ],
+      "tags": ["parking privé", "université", "jeune actif", "neuf"],
       "user": {
         "nom": "Leroy",
         "prenom": "Camille",
@@ -797,12 +672,7 @@
         "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
       ],
-      "tags": [
-        "proche commerces",
-        "cheminée",
-        "ascenseur",
-        "haussmannien"
-      ],
+      "tags": ["proche commerces", "cheminée", "ascenseur", "haussmannien"],
       "user": {
         "nom": "Mercier",
         "prenom": "Claire",
@@ -825,12 +695,7 @@
         "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
       ],
-      "tags": [
-        "écoquartier",
-        "balcon",
-        "proche tram",
-        "lumineux"
-      ],
+      "tags": ["écoquartier", "balcon", "proche tram", "lumineux"],
       "user": {
         "nom": "Faure",
         "prenom": "Nicolas",

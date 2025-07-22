@@ -1,6 +1,6 @@
-@import '../abstracts/_colors.scss';
+@import "../abstracts/_colors.scss";
 
-:root[data-theme='dark'] {
+:root[data-theme="dark"] {
   background-color: $bg_dark;
   color: white;
 
@@ -8,7 +8,8 @@
     background-color: $section_dark;
   }
 
-  button {
+  button,
+  #clear {
     color: white;
   }
 }
