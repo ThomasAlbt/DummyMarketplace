@@ -1,4 +1,4 @@
-import annoncesData from "../data/Annonces_30.json";
+import annoncesData from "../data/Annonces_V3.json";
 
 const FetchAll = async () => {
   return new Promise((resolve, reject) => {
@@ -10,7 +10,7 @@ const FetchAll = async () => {
         console.log(error);
         reject([]);
       }
-    }, 500);
+    }, 1000);
   });
 };
 
@@ -26,7 +26,7 @@ const FetchDetails = async (id) => {
         console.log(error);
         reject([]);
       }
-    }, 500);
+    }, 1000);
   });
 };
 

@@ -55,18 +55,25 @@ const Details = () => {
             src={data.photos?.[picture]}
             alt={`photo ${picture + 1} de l'annonce ${id}`}
             className="img-carousel"
+            loading="lazy"
+            srcSet={`
+              ${data.photos?.[picture]}?w=300 300w,
+              ${data.photos?.[picture]}?w=600 600w,
+              ${data.photos?.[picture]}?w=900 900w
+            `}
+            sizes="(max-width: 600px) 300px, (max-width: 1200px) 600px, 900px"
           />
           <button
             onClick={() => handlePicture(false)}
-            className="button-carousel"
+            className="button-carousel prev"
           >
-            &#x2B9C;
+            Previous
           </button>
           <button
             onClick={() => handlePicture(true)}
-            className="button-carousel"
+            className="button-carousel next"
           >
-            &#x2B9E;
+            Next
           </button>
         </div>
         <div id="infos" className="section">

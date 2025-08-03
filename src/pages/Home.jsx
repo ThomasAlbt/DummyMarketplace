@@ -95,19 +95,30 @@ const Home = () => {
           />
         ) : null}
         <ul className="section">
-          {displayList.map((data, index) => (
-            <li className="card" key={data.id || index}>
-              <Link to={`/${data.id}`}>
-                <h2>{data.title}</h2>
-                <img
-                  src={
-                    Array.isArray(data.photos) ? data.photos[0] : data.photos
-                  }
-                  alt=""
-                />
-              </Link>
+          {displayList.length === 0 ? (
+            <li className="no-result">
+              <p>Aucune annonce trouvée.<br />Essayez d’élargir votre recherche ou de retirer des filtres.</p>
             </li>
-          ))}
+          ) : (
+            displayList.map((data, index) => (
+              <li className="card" key={data.id || index}>
+                <Link to={`/${data.id}`}>
+                  <h2>{data.title}</h2>
+                  <img
+                    src={Array.isArray(data.photos) ? data.photos[0] : data.photos}
+                    alt={data.title}
+                    loading="lazy"
+                    srcSet={`
+                      ${Array.isArray(data.photos) ? data.photos[0] : data.photos}?w=300 300w,
+                      ${Array.isArray(data.photos) ? data.photos[0] : data.photos}?w=600 600w,
+                      ${Array.isArray(data.photos) ? data.photos[0] : data.photos}?w=900 900w
+                    `}
+                    sizes="(max-width: 600px) 300px, (max-width: 1200px) 600px, 900px"
+                  />
+                </Link>
+              </li>
+            ))
+          )}
         </ul>
         {isMobile ? null : (
           <Aside
@@ -121,7 +132,7 @@ const Home = () => {
           previous
         </button>
         <p>
-          {page} / {totalPages == 0 ? 1 : totalPages}
+          {page} / {totalPages === 0 ? 1 : totalPages}
         </p>
         <button onClick={nextPage} disabled={page === totalPages}>
           next

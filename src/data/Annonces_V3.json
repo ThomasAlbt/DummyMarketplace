@@ -1,0 +1,716 @@
+{
+  "annonces": [
+    {
+      "id": 1,
+      "title": "Maison à Toulouse",
+      "price": 366171,
+      "city": "Toulouse",
+      "bedrooms": 3,
+      "surface": 129,
+      "description": "Maison à Toulouse situé dans le quartier recherché de Toulouse. Confort, modernité et charme au rendez-vous.",
+      "photos": [
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+        "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6",
+        "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d",
+        "https://images.unsplash.com/photo-1600607688969-a5bfcd646154"
+      ],
+      "tags": ["neuf", "proche métro", "balcon", "résidence sécurisée"],
+      "user": {
+        "nom": "Moreau",
+        "prenom": "Luc",
+        "age": 29,
+        "presentation": "Je travaille dans la tech, ce bien a été parfait pour le télétravail.",
+        "photo_profil": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "note": 4.3
+      }
+    },
+    {
+      "id": 2,
+      "title": "Appartement à Nice",
+      "price": 393464,
+      "city": "Nice",
+      "bedrooms": 1,
+      "surface": 72,
+      "description": "Appartement à Nice situé dans le quartier recherché de Nice. Confort, modernité et charme au rendez-vous.",
+      "photos": [
+        "https://images.unsplash.com/photo-1493809842364-78817add7ffb",
+        "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf"
+      ],
+      "tags": ["centre-ville", "balcon", "vue mer", "moderne"],
+      "user": {
+        "nom": "Leroy",
+        "prenom": "Camille",
+        "age": 33,
+        "presentation": "Artiste peintre, je quitte la ville pour un nouveau projet.",
+        "photo_profil": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "note": 4.1
+      }
+    },
+    {
+      "id": 3,
+      "title": "Maison à Rennes",
+      "price": 188048,
+      "city": "Rennes",
+      "bedrooms": 1,
+      "surface": 83,
+      "description": "Maison à Rennes situé dans le quartier recherché de Rennes. Confort, modernité et charme au rendez-vous.",
+      "photos": [
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750",
+        "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688",
+        "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
+      ],
+      "tags": ["neuf", "université", "jeune actif", "parking privé"],
+      "user": {
+        "nom": "Dupont",
+        "prenom": "Sophie",
+        "age": 42,
+        "presentation": "Architecte d'intérieur, je vends ce bien avec émotion après 10 ans ici.",
+        "photo_profil": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "note": 4.9
+      }
+    },
+    {
+      "id": 4,
+      "title": "Appartement à Strasbourg",
+      "price": 705302,
+      "city": "Strasbourg",
+      "bedrooms": 5,
+      "surface": 133,
+      "description": "Appartement à Strasbourg situé dans le quartier recherché de Strasbourg. Confort, modernité et charme au rendez-vous.",
+      "photos": [
+        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2",
+        "https://images.unsplash.com/photo-1484154218962-a197022b5858",
+        "https://images.unsplash.com/photo-1493809842364-78817add7ffb",
+        "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688",
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750"
+      ],
+      "tags": ["véranda", "garage", "proche canal", "grenier"],
+      "user": {
+        "nom": "Garnier",
+        "prenom": "Louis",
+        "age": 60,
+        "presentation": "Retraité actif, j'ai entretenu cette maison avec soin.",
+        "photo_profil": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "note": 4.1
+      }
+    },
+    {
+      "id": 5,
+      "title": "Loft à Paris",
+      "price": 469329,
+      "city": "Paris",
+      "bedrooms": 5,
+      "surface": 103,
+      "description": "Loft à Paris situé dans le quartier recherché de Paris. Confort, modernité et charme au rendez-vous.",
+      "photos": [
+        "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+        "https://images.unsplash.com/photo-1580587771525-78b9dba3b914"
+      ],
+      "tags": ["proche commerces", "cheminée", "ascenseur", "haussmannien"],
+      "user": {
+        "nom": "Martin",
+        "prenom": "Pierre",
+        "age": 55,
+        "presentation": "Passionné de rénovation, j'ai redonné vie à cette maison.",
+        "photo_profil": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "note": 4.8
+      }
+    },
+    {
+      "id": 6,
+      "title": "Maison à Bordeaux",
+      "price": 347384,
+      "city": "Bordeaux",
+      "bedrooms": 1,
+      "surface": 78,
+      "description": "Maison à Bordeaux situé dans le quartier recherché de Bordeaux. Confort, modernité et charme au rendez-vous.",
+      "photos": [
+        "https://images.unsplash.com/photo-1600566752355-35792bedcfea",
+        "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+      ],
+      "tags": ["jardin", "poutres apparentes", "familial", "garage"],
+      "user": {
+        "nom": "Martin",
+        "prenom": "Pierre",
+        "age": 55,
+        "presentation": "Passionné de rénovation, j'ai redonné vie à cette maison.",
+        "photo_profil": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "note": 4.8
+      }
+    },
+    {
+      "id": 7,
+      "title": "Loft à Strasbourg",
+      "price": 525835,
+      "city": "Strasbourg",
+      "bedrooms": 4,
+      "surface": 142,
+      "description": "Loft à Strasbourg situé dans le quartier recherché de Strasbourg. Confort, modernité et charme au rendez-vous.",
+      "photos": [
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750",
+        "https://images.unsplash.com/photo-1564013799919-ab600027ffc6",
+        "https://images.unsplash.com/photo-1600607688969-a5bfcd646154",
+        "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf"
+      ],
+      "tags": ["proche canal", "garage", "grenier", "véranda"],
+      "user": {
+        "nom": "Garnier",
+        "prenom": "Louis",
+        "age": 60,
+        "presentation": "Retraité actif, j'ai entretenu cette maison avec soin.",
+        "photo_profil": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "note": 5.0
+      }
+    },
+    {
+      "id": 8,
+      "title": "Loft à Nantes",
+      "price": 862520,
+      "city": "Nantes",
+      "bedrooms": 3,
+      "surface": 43,
+      "description": "Loft à Nantes situé dans le quartier recherché de Nantes. Confort, modernité et charme au rendez-vous.",
+      "photos": [
+        "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3",
+        "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d",
+        "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf",
+        "https://images.unsplash.com/photo-1600607688969-a5bfcd646154",
+        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2"
+      ],
+      "tags": ["lumineux", "balcon", "proche tram", "écoquartier"],
+      "user": {
+        "nom": "Faure",
+        "prenom": "Nicolas",
+        "age": 50,
+        "presentation": "Ce logement a abrité ma petite galerie d'art pendant 10 ans.",
+        "photo_profil": "https://images.unsplash.com/photo-1542178243-bc20204b769f?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "note": 5.0
+      }
+    },
+    {
+      "id": 9,
+      "title": "Maison à Strasbourg",
+      "price": 793771,
+      "city": "Strasbourg",
+      "bedrooms": 1,
+      "surface": 66,
+      "description": "Maison à Strasbourg situé dans le quartier recherché de Strasbourg. Confort, modernité et charme au rendez-vous.",
+      "photos": [
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750"
+      ],
+      "tags": ["grenier", "garage", "véranda", "proche canal"],
+      "user": {
+        "nom": "Dupont",
+        "prenom": "Sophie",
+        "age": 42,
+        "presentation": "Architecte d'intérieur, je vends ce bien avec émotion après 10 ans ici.",
+        "photo_profil": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "note": 4.4
+      }
+    },
+    {
+      "id": 10,
+      "title": "Maison à Paris",
+      "price": 820660,
+      "city": "Paris",
+      "bedrooms": 2,
+      "surface": 60,
+      "description": "Maison à Paris situé dans le quartier recherché de Paris. Confort, modernité et charme au rendez-vous.",
+      "photos": [
+        "https://images.unsplash.com/photo-1600607688969-a5bfcd646154",
+        "https://images.unsplash.com/photo-1564013799919-ab600027ffc6",
+        "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3"
+      ],
+      "tags": ["haussmannien", "ascenseur", "proche commerces", "cheminée"],
+      "user": {
+        "nom": "Dupont",
+        "prenom": "Sophie",
+        "age": 42,
+        "presentation": "Architecte d'intérieur, je vends ce bien avec émotion après 10 ans ici.",
+        "photo_profil": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "note": 4.6
+      }
+    },
+    {
+      "id": 11,
+      "title": "Appartement à Lille",
+      "price": 552365,
+      "city": "Lille",
+      "bedrooms": 5,
+      "surface": 54,
+      "description": "Appartement à Lille situé dans le quartier recherché de Lille. Confort, modernité et charme au rendez-vous.",
+      "photos": [
+        "https://images.unsplash.com/photo-1600566752355-35792bedcfea",
+        "https://images.unsplash.com/photo-1580587771525-78b9dba3b914",
+        "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688",
+        "https://images.unsplash.com/photo-1513694203232-719a280e022f"
+      ],
+      "tags": [
+        "centre historique",
+        "cuisine équipée",
+        "double vitrage",
+        "parquet"
+      ],
+      "user": {
+        "nom": "Mercier",
+        "prenom": "Claire",
+        "age": 31,
+        "presentation": "Je pars vivre à l'étranger après avoir adoré ce quartier.",
+        "photo_profil": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "note": 4.1
+      }
+    },
+    {
+      "id": 12,
+      "title": "Appartement à Marseille",
+      "price": 685784,
+      "city": "Marseille",
+      "bedrooms": 3,
+      "surface": 143,
+      "description": "Appartement à Marseille situé dans le quartier recherché de Marseille. Confort, modernité et charme au rendez-vous.",
+      "photos": [
+        "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d",
+        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2"
+      ],
+      "tags": ["ensoleillé", "climatisation", "terrasse", "vue colline"],
+      "user": {
+        "nom": "Faure",
+        "prenom": "Nicolas",
+        "age": 50,
+        "presentation": "Ce logement a abrité ma petite galerie d'art pendant 10 ans.",
+        "photo_profil": "https://images.unsplash.com/photo-1542178243-bc20204b769f?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "note": 4.4
+      }
+    },
+    {
+      "id": 13,
+      "title": "Appartement à Paris",
+      "price": 700910,
+      "city": "Paris",
+      "bedrooms": 5,
+      "surface": 121,
+      "description": "Appartement à Paris situé dans le quartier recherché de Paris. Confort, modernité et charme au rendez-vous.",
+      "photos": [
+        "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750",
+        "https://images.unsplash.com/photo-1493809842364-78817add7ffb",
+        "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688"
+      ],
+      "tags": ["proche commerces", "haussmannien", "cheminée", "ascenseur"],
+      "user": {
+        "nom": "Dubois",
+        "prenom": "Emma",
+        "age": 38,
+        "presentation": "Maman de deux enfants, cette maison nous a comblés.",
+        "photo_profil": "https://images.unsplash.com/photo-1524502397800-2eeaad7c3fe5?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "note": 4.1
+      }
+    },
+    {
+      "id": 14,
+      "title": "Maison à Paris",
+      "price": 542483,
+      "city": "Paris",
+      "bedrooms": 5,
+      "surface": 121,
+      "description": "Maison à Paris situé dans le quartier recherché de Paris. Confort, modernité et charme au rendez-vous.",
+      "photos": [
+        "https://images.unsplash.com/photo-1564013799919-ab600027ffc6",
+        "https://images.unsplash.com/photo-1600607688969-a5bfcd646154"
+      ],
+      "tags": ["cheminée", "proche commerces", "ascenseur", "haussmannien"],
+      "user": {
+        "nom": "Garnier",
+        "prenom": "Louis",
+        "age": 60,
+        "presentation": "Retraité actif, j'ai entretenu cette maison avec soin.",
+        "photo_profil": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "note": 4.5
+      }
+    },
+    {
+      "id": 15,
+      "title": "Appartement à Strasbourg",
+      "price": 673465,
+      "city": "Strasbourg",
+      "bedrooms": 1,
+      "surface": 130,
+      "description": "Appartement à Strasbourg situé dans le quartier recherché de Strasbourg. Confort, modernité et charme au rendez-vous.",
+      "photos": [
+        "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+        "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf",
+        "https://images.unsplash.com/photo-1484154218962-a197022b5858"
+      ],
+      "tags": ["proche canal", "garage", "grenier", "véranda"],
+      "user": {
+        "nom": "Dupont",
+        "prenom": "Sophie",
+        "age": 42,
+        "presentation": "Architecte d'intérieur, je vends ce bien avec émotion après 10 ans ici.",
+        "photo_profil": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "note": 5.0
+      }
+    },
+    {
+      "id": 16,
+      "title": "Loft à Lyon",
+      "price": 616626,
+      "city": "Lyon",
+      "bedrooms": 5,
+      "surface": 145,
+      "description": "Loft à Lyon situé dans le quartier recherché de Lyon. Confort, modernité et charme au rendez-vous.",
+      "photos": [
+        "https://images.unsplash.com/photo-1600566752355-35792bedcfea",
+        "https://images.unsplash.com/photo-1513694203232-719a280e022f",
+        "https://images.unsplash.com/photo-1564013799919-ab600027ffc6"
+      ],
+      "tags": ["hauts plafonds", "mezzanine", "loft", "quartier créatif"],
+      "user": {
+        "nom": "Dupont",
+        "prenom": "Sophie",
+        "age": 42,
+        "presentation": "Architecte d'intérieur, je vends ce bien avec émotion après 10 ans ici.",
+        "photo_profil": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "note": 4.2
+      }
+    },
+    {
+      "id": 17,
+      "title": "Loft à Nice",
+      "price": 189777,
+      "city": "Nice",
+      "bedrooms": 5,
+      "surface": 149,
+      "description": "Loft à Nice situé dans le quartier recherché de Nice. Confort, modernité et charme au rendez-vous.",
+      "photos": [
+        "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d",
+        "https://images.unsplash.com/photo-1580587771525-78b9dba3b914",
+        "https://images.unsplash.com/photo-1484154218962-a197022b5858",
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750"
+      ],
+      "tags": ["vue mer", "centre-ville", "balcon", "moderne"],
+      "user": {
+        "nom": "Leroy",
+        "prenom": "Camille",
+        "age": 33,
+        "presentation": "Artiste peintre, je quitte la ville pour un nouveau projet.",
+        "photo_profil": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "note": 4.9
+      }
+    },
+    {
+      "id": 18,
+      "title": "Loft à Bordeaux",
+      "price": 283272,
+      "city": "Bordeaux",
+      "bedrooms": 1,
+      "surface": 106,
+      "description": "Loft à Bordeaux situé dans le quartier recherché de Bordeaux. Confort, modernité et charme au rendez-vous.",
+      "photos": [
+        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2",
+        "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3"
+      ],
+      "tags": ["jardin", "garage", "familial", "poutres apparentes"],
+      "user": {
+        "nom": "Dupont",
+        "prenom": "Sophie",
+        "age": 42,
+        "presentation": "Architecte d'intérieur, je vends ce bien avec émotion après 10 ans ici.",
+        "photo_profil": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "note": 4.9
+      }
+    },
+    {
+      "id": 19,
+      "title": "Maison à Nice",
+      "price": 754899,
+      "city": "Nice",
+      "bedrooms": 3,
+      "surface": 147,
+      "description": "Maison à Nice situé dans le quartier recherché de Nice. Confort, modernité et charme au rendez-vous.",
+      "photos": [
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+        "https://images.unsplash.com/photo-1493809842364-78817add7ffb",
+        "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688",
+        "https://images.unsplash.com/photo-1513694203232-719a280e022f",
+        "https://images.unsplash.com/photo-1600607688969-a5bfcd646154"
+      ],
+      "tags": ["balcon", "centre-ville", "moderne", "vue mer"],
+      "user": {
+        "nom": "Faure",
+        "prenom": "Nicolas",
+        "age": 50,
+        "presentation": "Ce logement a abrité ma petite galerie d'art pendant 10 ans.",
+        "photo_profil": "https://images.unsplash.com/photo-1542178243-bc20204b769f?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "note": 4.7
+      }
+    },
+    {
+      "id": 20,
+      "title": "Appartement à Nantes",
+      "price": 298793,
+      "city": "Nantes",
+      "bedrooms": 5,
+      "surface": 97,
+      "description": "Appartement à Nantes situé dans le quartier recherché de Nantes. Confort, modernité et charme au rendez-vous.",
+      "photos": [
+        "https://images.unsplash.com/photo-1600566752355-35792bedcfea",
+        "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf"
+      ],
+      "tags": ["lumineux", "proche tram", "écoquartier", "balcon"],
+      "user": {
+        "nom": "Dubois",
+        "prenom": "Emma",
+        "age": 38,
+        "presentation": "Maman de deux enfants, cette maison nous a comblés.",
+        "photo_profil": "https://images.unsplash.com/photo-1524502397800-2eeaad7c3fe5?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "note": 4.9
+      }
+    },
+    {
+      "id": 21,
+      "title": "Loft à Rennes",
+      "price": 595019,
+      "city": "Rennes",
+      "bedrooms": 1,
+      "surface": 95,
+      "description": "Loft à Rennes situé dans le quartier recherché de Rennes. Confort, modernité et charme au rendez-vous.",
+      "photos": [
+        "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+        "https://images.unsplash.com/photo-1484154218962-a197022b5858",
+        "https://images.unsplash.com/photo-1564013799919-ab600027ffc6"
+      ],
+      "tags": ["jeune actif", "parking privé", "université", "neuf"],
+      "user": {
+        "nom": "Leroy",
+        "prenom": "Camille",
+        "age": 33,
+        "presentation": "Artiste peintre, je quitte la ville pour un nouveau projet.",
+        "photo_profil": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "note": 4.1
+      }
+    },
+    {
+      "id": 22,
+      "title": "Maison à Nice",
+      "price": 482702,
+      "city": "Nice",
+      "bedrooms": 2,
+      "surface": 135,
+      "description": "Maison à Nice situé dans le quartier recherché de Nice. Confort, modernité et charme au rendez-vous.",
+      "photos": [
+        "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d",
+        "https://images.unsplash.com/photo-1580587771525-78b9dba3b914",
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750",
+        "https://images.unsplash.com/photo-1493809842364-78817add7ffb"
+      ],
+      "tags": ["balcon", "moderne", "centre-ville", "vue mer"],
+      "user": {
+        "nom": "Mercier",
+        "prenom": "Claire",
+        "age": 31,
+        "presentation": "Je pars vivre à l'étranger après avoir adoré ce quartier.",
+        "photo_profil": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "note": 4.0
+      }
+    },
+    {
+      "id": 23,
+      "title": "Loft à Strasbourg",
+      "price": 396421,
+      "city": "Strasbourg",
+      "bedrooms": 4,
+      "surface": 57,
+      "description": "Loft à Strasbourg situé dans le quartier recherché de Strasbourg. Confort, modernité et charme au rendez-vous.",
+      "photos": [
+        "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3",
+        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2"
+      ],
+      "tags": ["proche canal", "grenier", "véranda", "garage"],
+      "user": {
+        "nom": "Fontaine",
+        "prenom": "Julien",
+        "age": 45,
+        "presentation": "Fan de jardinage, j'ai transformé le terrain en petit paradis.",
+        "photo_profil": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "note": 4.4
+      }
+    },
+    {
+      "id": 24,
+      "title": "Appartement à Bordeaux",
+      "price": 788365,
+      "city": "Bordeaux",
+      "bedrooms": 1,
+      "surface": 85,
+      "description": "Appartement à Bordeaux situé dans le quartier recherché de Bordeaux. Confort, modernité et charme au rendez-vous.",
+      "photos": [
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+        "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688",
+        "https://images.unsplash.com/photo-1513694203232-719a280e022f"
+      ],
+      "tags": ["garage", "jardin", "familial", "poutres apparentes"],
+      "user": {
+        "nom": "Dupont",
+        "prenom": "Sophie",
+        "age": 42,
+        "presentation": "Architecte d'intérieur, je vends ce bien avec émotion après 10 ans ici.",
+        "photo_profil": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "note": 4.4
+      }
+    },
+    {
+      "id": 25,
+      "title": "Loft à Lille",
+      "price": 396762,
+      "city": "Lille",
+      "bedrooms": 3,
+      "surface": 37,
+      "description": "Loft à Lille situé dans le quartier recherché de Lille. Confort, modernité et charme au rendez-vous.",
+      "photos": [
+        "https://images.unsplash.com/photo-1600566752355-35792bedcfea",
+        "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf",
+        "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+        "https://images.unsplash.com/photo-1484154218962-a197022b5858"
+      ],
+      "tags": [
+        "parquet",
+        "cuisine équipée",
+        "centre historique",
+        "double vitrage"
+      ],
+      "user": {
+        "nom": "Fontaine",
+        "prenom": "Julien",
+        "age": 45,
+        "presentation": "Fan de jardinage, j'ai transformé le terrain en petit paradis.",
+        "photo_profil": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "note": 4.5
+      }
+    },
+    {
+      "id": 26,
+      "title": "Appartement à Nice",
+      "price": 241562,
+      "city": "Nice",
+      "bedrooms": 2,
+      "surface": 78,
+      "description": "Appartement à Nice situé dans le quartier recherché de Nice. Confort, modernité et charme au rendez-vous.",
+      "photos": [
+        "https://images.unsplash.com/photo-1564013799919-ab600027ffc6",
+        "https://images.unsplash.com/photo-1600607688969-a5bfcd646154",
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750"
+      ],
+      "tags": ["vue mer", "moderne", "balcon", "centre-ville"],
+      "user": {
+        "nom": "Dupont",
+        "prenom": "Sophie",
+        "age": 42,
+        "presentation": "Architecte d'intérieur, je vends ce bien avec émotion après 10 ans ici.",
+        "photo_profil": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "note": 4.4
+      }
+    },
+    {
+      "id": 27,
+      "title": "Maison à Lille",
+      "price": 437691,
+      "city": "Lille",
+      "bedrooms": 5,
+      "surface": 150,
+      "description": "Maison à Lille situé dans le quartier recherché de Lille. Confort, modernité et charme au rendez-vous.",
+      "photos": [
+        "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3",
+        "https://images.unsplash.com/photo-1580587771525-78b9dba3b914"
+      ],
+      "tags": [
+        "parquet",
+        "centre historique",
+        "cuisine équipée",
+        "double vitrage"
+      ],
+      "user": {
+        "nom": "Garnier",
+        "prenom": "Louis",
+        "age": 60,
+        "presentation": "Retraité actif, j'ai entretenu cette maison avec soin.",
+        "photo_profil": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "note": 4.6
+      }
+    },
+    {
+      "id": 28,
+      "title": "Appartement à Rennes",
+      "price": 372278,
+      "city": "Rennes",
+      "bedrooms": 2,
+      "surface": 146,
+      "description": "Appartement à Rennes situé dans le quartier recherché de Rennes. Confort, modernité et charme au rendez-vous.",
+      "photos": [
+        "https://images.unsplash.com/photo-1493809842364-78817add7ffb",
+        "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688",
+        "https://images.unsplash.com/photo-1513694203232-719a280e022f",
+        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2"
+      ],
+      "tags": ["parking privé", "université", "jeune actif", "neuf"],
+      "user": {
+        "nom": "Leroy",
+        "prenom": "Camille",
+        "age": 33,
+        "presentation": "Artiste peintre, je quitte la ville pour un nouveau projet.",
+        "photo_profil": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "note": 4.5
+      }
+    },
+    {
+      "id": 29,
+      "title": "Appartement à Paris",
+      "price": 319701,
+      "city": "Paris",
+      "bedrooms": 1,
+      "surface": 80,
+      "description": "Appartement à Paris situé dans le quartier recherché de Paris. Confort, modernité et charme au rendez-vous.",
+      "photos": [
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+        "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d",
+        "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf"
+      ],
+      "tags": ["proche commerces", "cheminée", "ascenseur", "haussmannien"],
+      "user": {
+        "nom": "Mercier",
+        "prenom": "Claire",
+        "age": 31,
+        "presentation": "Je pars vivre à l'étranger après avoir adoré ce quartier.",
+        "photo_profil": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "note": 4.1
+      }
+    },
+    {
+      "id": 30,
+      "title": "Maison à Nantes",
+      "price": 411429,
+      "city": "Nantes",
+      "bedrooms": 3,
+      "surface": 104,
+      "description": "Maison à Nantes situé dans le quartier recherché de Nantes. Confort, modernité et charme au rendez-vous.",
+      "photos": [
+        "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+        "https://images.unsplash.com/photo-1484154218962-a197022b5858",
+        "https://images.unsplash.com/photo-1564013799919-ab600027ffc6",
+        "https://images.unsplash.com/photo-1600607688969-a5bfcd646154"
+      ],
+      "tags": ["écoquartier", "balcon", "proche tram", "lumineux"],
+      "user": {
+        "nom": "Faure",
+        "prenom": "Nicolas",
+        "age": 50,
+        "presentation": "Ce logement a abrité ma petite galerie d'art pendant 10 ans.",
+        "photo_profil": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "note": 4.7
+      }
+    }
+  ]
+}
