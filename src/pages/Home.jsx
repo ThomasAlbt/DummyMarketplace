@@ -101,7 +101,7 @@ const Home = () => {
             </li>
           ) : (
             displayList.map((data, index) => (
-              <li className="card" key={data.id || index}>
+              <li className="card section" key={data.id || index}>
                 <Link to={`/${data.id}`}>
                   <h2>{data.title}</h2>
                   <img

@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { FetchDetails } from "../components/Fetch";
 import { useParams } from "react-router";
+import FetchAPI from "../components/FetchAPI";
 import Header from "../layout/Header";
 import Footer from "../layout/Footer";
 
@@ -9,8 +10,14 @@ const Details = () => {
   const [data, setData] = useState([]);
   const [isLoading, setLoading] = useState(false);
   const [picture, setPicture] = useState(0);
+  const theme = localStorage.getItem("theme") || "light";
 
   useEffect(() => {
+    document.documentElement.setAttribute("data-theme", theme);
+  }, [theme]);
+
+  useEffect(() => {
+    FetchAPI();
     const fetchData = async () => {
       setLoading(true);
       try {
@@ -92,7 +99,7 @@ const Details = () => {
         <p className="section">{data.description}</p>
         {data.user ? (
           <aside className="section">
-            <img src={data.user.photo_profil} alt="" />
+            <img src={data.user.photo_profil} alt="photo de profil" id="pfp"/>
             <p>
               {data.user ? data.user.prenom : null}
               <span> {data.user ? data.user.nom : null}</span>

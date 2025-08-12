@@ -7,7 +7,7 @@ const Header = ({ search, setSearch }) => {
   const isMobile = checkMobile();
   const { id } = useParams();
 
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
   const [activeSearch, setActiveSearch] = useState(true);
   const [inputValue, setInputValue] = useState(search);
 
@@ -33,13 +33,19 @@ const Header = ({ search, setSearch }) => {
     return "show";
   };
 
+  const handleTheme = () => {
+    const newTheme = theme === "light" ? "dark" : "light";
+    setTheme(newTheme);
+    localStorage.setItem("theme", newTheme);
+  };
+
   return (
     <header className="section">
       <Link to="/">
         {isMobile ? (
-          <img src="/DummyMarketplace/LogoMobile.svg" alt="logo dummy" />
+          <img id="logo" src="/DummyMarketplace/LogoMobile.svg" alt="logo dummy" />
         ) : (
-          <img src="/DummyMarketplace/logo.svg" alt="logo dummy" />
+          <img id="logo" src="/DummyMarketplace/logo.svg" alt="logo dummy" />
         )}
       </Link>
       {id ? null : (
@@ -51,7 +57,15 @@ const Header = ({ search, setSearch }) => {
           className={handleMobileSearch()}
         />
       )}
-      {id ? null : (
+      {id ?
+        <Link to='/'>
+          <button
+            id="mobileSearch"
+          >
+            <img src="/DummyMarketplace/search.svg" alt="icone de recherche" />
+          </button>
+        </Link>
+         : (
         <button
           id="mobileSearch"
           onClick={() => setActiveSearch(activeSearch ? false : true)}
@@ -59,20 +73,18 @@ const Header = ({ search, setSearch }) => {
           <img src="/DummyMarketplace/search.svg" alt="icone de recherche" />
         </button>
       )}
-      {id ? null : (
-        <button
-          onClick={() =>
-            setTheme((theme) => (theme === "light" ? "dark" : "light"))
-          }
-          className="circle"
-        >
-          {theme === "light" ? (
-            <img src="/DummyMarketplace/dark.svg"></img>
-          ) : (
-            <img src="/DummyMarketplace/light.svg"></img>
-          )}
-        </button>
-      )}
+      <button
+        onClick={() =>
+          handleTheme()
+        }
+        className="circle"
+      >
+        {theme === "light" ? (
+          <img src="/DummyMarketplace/dark.svg"></img>
+        ) : (
+          <img src="/DummyMarketplace/light.svg"></img>
+        )}
+      </button>
     </header>
   );
 };

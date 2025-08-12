@@ -20,7 +20,6 @@ const FetchDetails = async (id) => {
       try {
         const annonces = annoncesData.annonces || [];
         const found = annonces.filter((a) => String(a.id) === String(id));
-        console.log(found);
         resolve(found);
       } catch (error) {
         console.log(error);
