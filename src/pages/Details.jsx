@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { FetchDetails } from "../components/Fetch";
 import { useParams } from "react-router";
-import FetchAPI from "../components/FetchAPI";
 import Header from "../layout/Header";
 import Footer from "../layout/Footer";
 
