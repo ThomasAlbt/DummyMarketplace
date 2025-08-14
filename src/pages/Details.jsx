@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { FetchDetails } from "../components/Fetch";
 import { useParams } from "react-router";
+import { FetchOverlay, postId } from "../components/FetchAPI";
 import Header from "../layout/Header";
 import Footer from "../layout/Footer";
 
@@ -16,7 +17,7 @@ const Details = () => {
   }, [theme]);
 
   useEffect(() => {
-    FetchAPI();
+    postId(parseInt(id));
     const fetchData = async () => {
       setLoading(true);
       try {
@@ -109,6 +110,7 @@ const Details = () => {
         ) : null}
       </div>
       <Footer />
+      <FetchOverlay id={ parseInt(id) }/>
     </>
   );
 };
