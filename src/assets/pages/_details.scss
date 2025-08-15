@@ -15,6 +15,7 @@
     font-family: "Coolvetica";
     text-align: center;
     font-size: 3rem;
+    border-bottom: solid 1px $accent1;
   }
 
   #carousel {
@@ -60,50 +61,129 @@
     right: 1rem;
   }
 
-  #infos {
+  .center {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 1rem;
-    font-size: 1.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #infos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    padding: 8px;
 
     ul {
-      all: unset;
+      min-height: unset;
+
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
       list-style: none;
 
       li {
+        text-align: center;
+        padding: 1rem;
+        flex-grow: 1;
         background: $accent2;
         border-radius: 1rem;
-        padding: 0.5rem;
-        margin: 1rem;
-        text-align: center;
+        height: auto;
+        font-size: 2rem;
+        color: white;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
     }
 
-    div {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
+    section {
+        padding: 1rem;
+        font-size: 2rem;
+
+        p {
+          border-bottom: solid 1px $accent1;
+          margin-bottom: 1rem;
+        }
+
+        p:first-child {
+          font-size: 4rem;
+          font-weight: bold;
+        }
+
+        p:nth-child(2) {
+          font-weight: 500;
+          color: #555;
+        }
+      }
+  }
+
+  #description {
+    min-height: 20vh;
+    font-size: 2rem;
+    padding: 1rem;
+    overflow-y: scroll;
+
+    &::before {
+      content: 'Description : \A';
+      font-weight: bold;
     }
   }
 
-  p {
-    margin: auto;
-    font-size: 1.5rem;
-    padding: 1rem;
-  }
-
-  aside {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    overflow-y: hidden;
+  #profil {
+    padding: 8px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 8px;
 
     #pfp {
-      border-radius: 50%;
-      height: 10rem;
-      width: 10rem;
+      grid-column: span 2 / span 2;
+      grid-row: span 2 / span 2;
+
+      width: 100%;
+      height: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      border-radius: 16px;
+    }
+
+    #name {
+      grid-column: span 2 / span 2;
+      grid-column-start: 1;
+      grid-row-start: 3;
+
+      font-size: 3rem;
+      text-align: center;
+
+      span {
+        font-weight: bold;
+      }
+    }
+
+    #age {
+      grid-column: span 2 / span 2;
+      grid-column-start: 1;
+      grid-row-start: 4;
+
+      font-size: 2rem;
+    }
+
+    #presentation {
+      grid-column: span 2 / span 2;
+      grid-row: span 4 / span 4;
+      grid-column-start: 3;
+      grid-row-start: 1;
+
+      font-size: 2rem;
+      overflow-y: scroll;
+
+      &::before {
+        content: 'Presentation : \A';
+        font-weight: bold;
+      }
     }
   }
 }
@@ -118,7 +198,7 @@
 
       h1 {
         text-align: center;
-        font-size: 3rem;
+        font-size: 6rem;
         grid-column: 1 / -1;
       }
 
@@ -136,11 +216,27 @@
       #infos {
         grid-column: 1 / 2;
         grid-row: 3 / 4;
-      }
 
-      p {
-        grid-column: 2 / 3;
-        grid-row: 3 / 4;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+          "section ul";
+
+        section {
+          grid-area: section;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+        }
+
+        ul {
+          grid-area: ul;
+
+          li {
+            width: 100%;
+          }
+        }
       }
 
       aside {

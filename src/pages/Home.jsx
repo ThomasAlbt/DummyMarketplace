@@ -5,6 +5,7 @@ import Aside from "../layout/Aside";
 import Footer from "../layout/Footer";
 import { Link } from "react-router";
 import checkMobile from "../components/CheckMobile";
+import Loading from "../components/Loading";
 
 const ANNONCES_PER_PAGE = 10;
 
@@ -78,9 +79,7 @@ const Home = () => {
 
   if (isLoading) {
     return (
-      <div className="loader-container">
-        <div class="loader"></div>
-      </div>
+      <Loading onFinish={() => setLoading(false)}/>
     );
   }
 

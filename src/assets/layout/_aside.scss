@@ -1,5 +1,6 @@
 aside {
   border-radius: 2rem;
+  padding: 1rem;
 
   #clear {
     border: none;
@@ -10,6 +11,11 @@ aside {
     font-size: 1rem;
     font-family: "Coolvetica", sans-serif;
     cursor: pointer;
+
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
   }
 
   form {
@@ -17,8 +23,6 @@ aside {
     flex-direction: row;
     overflow-x: scroll;
     align-items: center;
-
-    padding: 1rem;
 
     legend {
       font-size: 2rem;
@@ -29,12 +33,18 @@ aside {
       text-wrap: nowrap;
       padding-left: 1rem;
 
+      margin: 1rem auto;
+
       input {
         display: none;
       }
 
       label {
-        border: 2px solid $accent2;
+        background: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(15px);
+        border: 2px solid rgba(255, 255, 255, 0.3);
+
         border-radius: 2rem;
         padding: 0.4rem 1rem;
         transition: background 0.3s, color 0.3s;
@@ -59,30 +69,16 @@ aside {
 
     form {
       flex-direction: column;
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-      gap: 1rem;
-      align-items: start;
-
-      legend {
-        grid-column: 1 / -1;
-        margin-bottom: 1rem;
-        margin: auto;
-      }
+      width: 100%;
+      max-height: 100%;
+      overflow-y: scroll;
 
       div {
-        padding: 0;
+        width: 90%;
 
         label {
-          display: block;
-          text-align: center;
-          width: 90%;
+          font-size: 2rem;
         }
-      }
-
-      #clear {
-        grid-column: 1 / -1;
-        justify-self: start;
       }
     }
   }
