@@ -20,7 +20,7 @@
         "prenom": "Luc",
         "age": 29,
         "presentation": "Je travaille dans la tech, ce bien a été parfait pour le télétravail.",
-        "photo_profil": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "photo_profil": "https://ui-avatars.com/api/?name=Luc+Moreau&background=random&rounded=true&size=200",
         "note": 4.3
       }
     },
@@ -42,7 +42,7 @@
         "prenom": "Camille",
         "age": 33,
         "presentation": "Artiste peintre, je quitte la ville pour un nouveau projet.",
-        "photo_profil": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "photo_profil": "https://ui-avatars.com/api/?name=Camille+Leroy&background=random&rounded=true&size=200",
         "note": 4.1
       }
     },
@@ -65,7 +65,7 @@
         "prenom": "Sophie",
         "age": 42,
         "presentation": "Architecte d'intérieur, je vends ce bien avec émotion après 10 ans ici.",
-        "photo_profil": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "photo_profil": "https://ui-avatars.com/api/?name=Sophie+Dupont&background=random&rounded=true&size=200",
         "note": 4.9
       }
     },
@@ -90,7 +90,7 @@
         "prenom": "Louis",
         "age": 60,
         "presentation": "Retraité actif, j'ai entretenu cette maison avec soin.",
-        "photo_profil": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "photo_profil": "https://ui-avatars.com/api/?name=Louis+Garnier&background=random&rounded=true&size=200",
         "note": 4.1
       }
     },
@@ -112,7 +112,7 @@
         "prenom": "Pierre",
         "age": 55,
         "presentation": "Passionné de rénovation, j'ai redonné vie à cette maison.",
-        "photo_profil": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "photo_profil": "https://ui-avatars.com/api/?name=Pierre+Martin&background=random&rounded=true&size=200",
         "note": 4.8
       }
     },
@@ -135,7 +135,7 @@
         "prenom": "Pierre",
         "age": 55,
         "presentation": "Passionné de rénovation, j'ai redonné vie à cette maison.",
-        "photo_profil": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "photo_profil": "https://ui-avatars.com/api/?name=Pierre+Martin&background=random&rounded=true&size=200",
         "note": 4.8
       }
     },
@@ -159,7 +159,7 @@
         "prenom": "Louis",
         "age": 60,
         "presentation": "Retraité actif, j'ai entretenu cette maison avec soin.",
-        "photo_profil": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "photo_profil": "https://ui-avatars.com/api/?name=Louis+Garnier&background=random&rounded=true&size=200",
         "note": 5.0
       }
     },
@@ -184,7 +184,7 @@
         "prenom": "Nicolas",
         "age": 50,
         "presentation": "Ce logement a abrité ma petite galerie d'art pendant 10 ans.",
-        "photo_profil": "https://images.unsplash.com/photo-1542178243-bc20204b769f?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "photo_profil": "https://ui-avatars.com/api/?name=Nicolas+Faure&background=random&rounded=true&size=200",
         "note": 5.0
       }
     },
@@ -206,7 +206,7 @@
         "prenom": "Sophie",
         "age": 42,
         "presentation": "Architecte d'intérieur, je vends ce bien avec émotion après 10 ans ici.",
-        "photo_profil": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "photo_profil": "https://ui-avatars.com/api/?name=Sophie+Dupont&background=random&rounded=true&size=200",
         "note": 4.4
       }
     },
@@ -229,7 +229,7 @@
         "prenom": "Sophie",
         "age": 42,
         "presentation": "Architecte d'intérieur, je vends ce bien avec émotion après 10 ans ici.",
-        "photo_profil": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "photo_profil": "https://ui-avatars.com/api/?name=Sophie+Dupont&background=random&rounded=true&size=200",
         "note": 4.6
       }
     },
@@ -247,18 +247,13 @@
         "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688",
         "https://images.unsplash.com/photo-1513694203232-719a280e022f"
       ],
-      "tags": [
-        "centre historique",
-        "cuisine équipée",
-        "double vitrage",
-        "parquet"
-      ],
+      "tags": ["centre historique", "cuisine équipée", "double vitrage", "parquet"],
       "user": {
         "nom": "Mercier",
         "prenom": "Claire",
         "age": 31,
         "presentation": "Je pars vivre à l'étranger après avoir adoré ce quartier.",
-        "photo_profil": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "photo_profil": "https://ui-avatars.com/api/?name=Claire+Mercier&background=random&rounded=true&size=200",
         "note": 4.1
       }
     },
@@ -280,7 +275,7 @@
         "prenom": "Nicolas",
         "age": 50,
         "presentation": "Ce logement a abrité ma petite galerie d'art pendant 10 ans.",
-        "photo_profil": "https://images.unsplash.com/photo-1542178243-bc20204b769f?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "photo_profil": "https://ui-avatars.com/api/?name=Nicolas+Faure&background=random&rounded=true&size=200",
         "note": 4.4
       }
     },
@@ -305,7 +300,7 @@
         "prenom": "Emma",
         "age": 38,
         "presentation": "Maman de deux enfants, cette maison nous a comblés.",
-        "photo_profil": "https://images.unsplash.com/photo-1524502397800-2eeaad7c3fe5?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "photo_profil": "https://ui-avatars.com/api/?name=Emma+Dubois&background=random&rounded=true&size=200",
         "note": 4.1
       }
     },
@@ -327,7 +322,7 @@
         "prenom": "Louis",
         "age": 60,
         "presentation": "Retraité actif, j'ai entretenu cette maison avec soin.",
-        "photo_profil": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "photo_profil": "https://ui-avatars.com/api/?name=Louis+Garnier&background=random&rounded=true&size=200",
         "note": 4.5
       }
     },
@@ -350,7 +345,7 @@
         "prenom": "Sophie",
         "age": 42,
         "presentation": "Architecte d'intérieur, je vends ce bien avec émotion après 10 ans ici.",
-        "photo_profil": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "photo_profil": "https://ui-avatars.com/api/?name=Sophie+Dupont&background=random&rounded=true&size=200",
         "note": 5.0
       }
     },
@@ -373,7 +368,7 @@
         "prenom": "Sophie",
         "age": 42,
         "presentation": "Architecte d'intérieur, je vends ce bien avec émotion après 10 ans ici.",
-        "photo_profil": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "photo_profil": "https://ui-avatars.com/api/?name=Sophie+Dupont&background=random&rounded=true&size=200",
         "note": 4.2
       }
     },
@@ -397,7 +392,7 @@
         "prenom": "Camille",
         "age": 33,
         "presentation": "Artiste peintre, je quitte la ville pour un nouveau projet.",
-        "photo_profil": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "photo_profil": "https://ui-avatars.com/api/?name=Camille+Leroy&background=random&rounded=true&size=200",
         "note": 4.9
       }
     },
@@ -419,7 +414,7 @@
         "prenom": "Sophie",
         "age": 42,
         "presentation": "Architecte d'intérieur, je vends ce bien avec émotion après 10 ans ici.",
-        "photo_profil": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "photo_profil": "https://ui-avatars.com/api/?name=Sophie+Dupont&background=random&rounded=true&size=200",
         "note": 4.9
       }
     },
@@ -444,7 +439,7 @@
         "prenom": "Nicolas",
         "age": 50,
         "presentation": "Ce logement a abrité ma petite galerie d'art pendant 10 ans.",
-        "photo_profil": "https://images.unsplash.com/photo-1542178243-bc20204b769f?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "photo_profil": "https://ui-avatars.com/api/?name=Nicolas+Faure&background=random&rounded=true&size=200",
         "note": 4.7
       }
     },
@@ -466,7 +461,7 @@
         "prenom": "Emma",
         "age": 38,
         "presentation": "Maman de deux enfants, cette maison nous a comblés.",
-        "photo_profil": "https://images.unsplash.com/photo-1524502397800-2eeaad7c3fe5?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "photo_profil": "https://ui-avatars.com/api/?name=Emma+Dubois&background=random&rounded=true&size=200",
         "note": 4.9
       }
     },
@@ -489,7 +484,7 @@
         "prenom": "Camille",
         "age": 33,
         "presentation": "Artiste peintre, je quitte la ville pour un nouveau projet.",
-        "photo_profil": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "photo_profil": "https://ui-avatars.com/api/?name=Camille+Leroy&background=random&rounded=true&size=200",
         "note": 4.1
       }
     },
@@ -513,7 +508,7 @@
         "prenom": "Claire",
         "age": 31,
         "presentation": "Je pars vivre à l'étranger après avoir adoré ce quartier.",
-        "photo_profil": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "photo_profil": "https://ui-avatars.com/api/?name=Claire+Mercier&background=random&rounded=true&size=200",
         "note": 4.0
       }
     },
@@ -535,7 +530,7 @@
         "prenom": "Julien",
         "age": 45,
         "presentation": "Fan de jardinage, j'ai transformé le terrain en petit paradis.",
-        "photo_profil": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "photo_profil": "https://ui-avatars.com/api/?name=Julien+Fontaine&background=random&rounded=true&size=200",
         "note": 4.4
       }
     },
@@ -558,7 +553,7 @@
         "prenom": "Sophie",
         "age": 42,
         "presentation": "Architecte d'intérieur, je vends ce bien avec émotion après 10 ans ici.",
-        "photo_profil": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "photo_profil": "https://ui-avatars.com/api/?name=Sophie+Dupont&background=random&rounded=true&size=200",
         "note": 4.4
       }
     },
@@ -576,18 +571,13 @@
         "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
         "https://images.unsplash.com/photo-1484154218962-a197022b5858"
       ],
-      "tags": [
-        "parquet",
-        "cuisine équipée",
-        "centre historique",
-        "double vitrage"
-      ],
+      "tags": ["parquet", "cuisine équipée", "centre historique", "double vitrage"],
       "user": {
         "nom": "Fontaine",
         "prenom": "Julien",
         "age": 45,
         "presentation": "Fan de jardinage, j'ai transformé le terrain en petit paradis.",
-        "photo_profil": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "photo_profil": "https://ui-avatars.com/api/?name=Julien+Fontaine&background=random&rounded=true&size=200",
         "note": 4.5
       }
     },
@@ -610,7 +600,7 @@
         "prenom": "Sophie",
         "age": 42,
         "presentation": "Architecte d'intérieur, je vends ce bien avec émotion après 10 ans ici.",
-        "photo_profil": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "photo_profil": "https://ui-avatars.com/api/?name=Sophie+Dupont&background=random&rounded=true&size=200",
         "note": 4.4
       }
     },
@@ -626,18 +616,13 @@
         "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3",
         "https://images.unsplash.com/photo-1580587771525-78b9dba3b914"
       ],
-      "tags": [
-        "parquet",
-        "centre historique",
-        "cuisine équipée",
-        "double vitrage"
-      ],
+      "tags": ["parquet", "centre historique", "cuisine équipée", "double vitrage"],
       "user": {
         "nom": "Garnier",
         "prenom": "Louis",
         "age": 60,
         "presentation": "Retraité actif, j'ai entretenu cette maison avec soin.",
-        "photo_profil": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "photo_profil": "https://ui-avatars.com/api/?name=Louis+Garnier&background=random&rounded=true&size=200",
         "note": 4.6
       }
     },
@@ -661,7 +646,7 @@
         "prenom": "Camille",
         "age": 33,
         "presentation": "Artiste peintre, je quitte la ville pour un nouveau projet.",
-        "photo_profil": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "photo_profil": "https://ui-avatars.com/api/?name=Camille+Leroy&background=random&rounded=true&size=200",
         "note": 4.5
       }
     },
@@ -684,7 +669,7 @@
         "prenom": "Claire",
         "age": 31,
         "presentation": "Je pars vivre à l'étranger après avoir adoré ce quartier.",
-        "photo_profil": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "photo_profil": "https://ui-avatars.com/api/?name=Claire+Mercier&background=random&rounded=true&size=200",
         "note": 4.1
       }
     },
@@ -708,7 +693,7 @@
         "prenom": "Nicolas",
         "age": 50,
         "presentation": "Ce logement a abrité ma petite galerie d'art pendant 10 ans.",
-        "photo_profil": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "photo_profil": "https://ui-avatars.com/api/?name=Nicolas+Faure&background=random&rounded=true&size=200",
         "note": 4.7
       }
     }
