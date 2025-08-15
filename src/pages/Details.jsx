@@ -5,6 +5,7 @@ import { postId } from "../components/FetchAPI";
 import Header from "../layout/Header";
 import Footer from "../layout/Footer";
 import Loading from "../components/Loading";
+import Rating from "../components/Stars";
 
 const Details = () => {
   const { id } = useParams();
@@ -104,7 +105,7 @@ const Details = () => {
               <span> {data.user ? data.user.nom : null}</span>
             </p>
             <p id="age" className="section center">{data.user.age} ans</p>
-            <p id="presentation" className="section center">{data.user.presentation}</p>
+            <div id="presentation" className="section center">{data.user.presentation}<Rating value={data.user.note} /></div>
           </aside>
         ) : null}
       </div>
