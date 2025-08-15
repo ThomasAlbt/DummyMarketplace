@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { FetchDetails } from "../components/Fetch";
 import { useParams } from "react-router";
-import { FetchOverlay, postId } from "../components/FetchAPI";
+import { postId } from "../components/FetchAPI";
 import Header from "../layout/Header";
 import Footer from "../layout/Footer";
 import Loading from "../components/Loading";
@@ -109,7 +109,6 @@ const Details = () => {
         ) : null}
       </div>
       <Footer />
-      <FetchOverlay id={ parseInt(id) }/>
     </>
   );
 };

@@ -175,7 +175,7 @@ table {
   width: 100%;
   height: 100%;
   display: block;
-  border-radius: 16px;
+  border-radius: 21px;
 }
 :root ul .card h2 {
   background: unset;
@@ -463,6 +463,7 @@ table {
 aside {
   border-radius: 2rem;
   padding: 1rem;
+  width: 85vw;
 }
 aside #clear {
   border: none;
@@ -518,6 +519,7 @@ aside form div input:checked + label {
     grid-row: span 4/span 4;
     grid-column-start: 5;
     grid-row-start: 2;
+    width: unset;
   }
   aside form {
     flex-direction: column;
