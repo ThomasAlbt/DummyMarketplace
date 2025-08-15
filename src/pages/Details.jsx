@@ -4,6 +4,7 @@ import { useParams } from "react-router";
 import { FetchOverlay, postId } from "../components/FetchAPI";
 import Header from "../layout/Header";
 import Footer from "../layout/Footer";
+import Loading from "../components/Loading";
 
 const Details = () => {
   const { id } = useParams();
@@ -46,9 +47,7 @@ const Details = () => {
 
   if (isLoading) {
     return (
-      <div className="loader-container">
-        <div class="loader"></div>
-      </div>
+      <Loading onFinish={() => setLoading(false)}/>
     );
   }
 
@@ -84,28 +83,28 @@ const Details = () => {
           </button>
         </div>
         <div id="infos" className="section">
-          <div>
+          <section>
             <p>{data.price}€</p>
             <p>{data.city}</p>
             <p>Nombre de chambres : {data.bedrooms}</p>
             <p>surface : {data.surface}m2</p>
-          </div>
+          </section>
           <ul>
             {data.tags?.map((tag, index) => (
               <li key={index}>{tag}</li>
             ))}
           </ul>
         </div>
-        <p className="section">{data.description}</p>
+        <p className="section" id="description">{data.description}</p>
         {data.user ? (
-          <aside className="section">
+          <aside className="section" id="profil">
             <img src={data.user.photo_profil} alt="photo de profil" id="pfp"/>
-            <p>
+            <p id="name" className="section center">
               {data.user ? data.user.prenom : null}
               <span> {data.user ? data.user.nom : null}</span>
             </p>
-            <p>{data.user.age} ans</p>
-            <p>{data.user.presentation}</p>
+            <p id="age" className="section center">{data.user.age} ans</p>
+            <p id="presentation" className="section center">{data.user.presentation}</p>
           </aside>
         ) : null}
       </div>
